@@ -5,7 +5,7 @@ let arr = [16, 15, 4, 13, 2, 1];
 
 function insertionSort(arr) {
     let current, i, j;
-    for(let i = 1; i < arr.length; i++){
+    for(i = 1; i < arr.length; i++){
         current = arr[i];
         j = i - 1;
         while(j >= 0 && arr[j] > current){
