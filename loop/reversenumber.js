@@ -9,3 +9,15 @@ while(number > 0) {
 }
 
 console.log(result);
+
+// // Without using algorithm
+// let result = Number(String(num).split('').reverse().join(''));
+// console.log(result);
+
+// // Arrow function for reversing the number
+
+// let reverseNumber = (number) =>
+//   parseFloat(number.toString().split('').reverse().join('')) *
+//   Math.sign(number);
+
+//   console.log(reverseNumber(32728701));
